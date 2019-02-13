@@ -6,12 +6,12 @@ CONFIGFOLDER='/root/.fline'
 COIN_DAEMON='flined'
 COIN_CLI='fline-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/flinecoin/coin/releases/download/v1.0.0/fline-linux-daemon-static-1.0.0.tgz'
+COIN_TGZ='https://github.com/flinecoin/coin/releases/download/v1.0.2/fline-linux-daemon-static-1.0.2.tgz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Fline'
 COIN_PORT=15235
 RPC_PORT=15236
-LATEST_VERSION=1000000
+LATEST_VERSION=1000200
 
 NODEIP=$(curl -s4 api.ipify.org)
 
